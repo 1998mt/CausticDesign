@@ -50,7 +50,10 @@
 #include <CGAL/natural_neighbor_coordinates_2.h>
 
 
+#ifdef _WIN32
 #include <Windows.h>
+#endif
+
 
 typedef CGAL::Exact_predicates_exact_constructions_kernel                               CGALKernel;
 // typedef CGAL::Exact_predicates_inexact_constructions_kernel                             CGALKernel;
